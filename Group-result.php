@@ -46,7 +46,7 @@
       <h1 class="u-text u-text-default u-text-1">Grade information of School name</h1>
       <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/piechart-temp.png" alt="" data-image-width="512" data-image-height="512">
     </div>
-  </section>
+  </section>awdawdawdawdawdawdwadwdawda
 
   <?php
   include_once('incs/footer.inc.php');
