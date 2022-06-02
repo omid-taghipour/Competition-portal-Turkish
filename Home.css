@@ -1,0 +1,85 @@
+ .u-section-1 {
+  background-image: url("images/donald-giannatti-Wj1D-qiOseE-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-group-1 {
+  width: 864px;
+  min-height: 336px;
+  background-image: none;
+  margin: 88px auto 60px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 19px 30px 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 10.5rem;
+  font-weight: 700;
+  margin: 1px 56px 0 57px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 2.25rem;
+  font-family: Montserrat, sans-serif;
+  margin: -10px auto 0;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 7.5rem;
+    width: auto;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 20px;
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 686px;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 445px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 432px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.375rem;
+  }
+}

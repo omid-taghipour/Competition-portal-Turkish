@@ -1,0 +1,25 @@
+.number-column {
+    text-align: center;
+}
+
+.place-icon {
+    width: 2rem;
+}
+
+@media (max-width: 1280px) {
+    .school-result {
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .school-result {
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .school-result {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,67 @@
+.school-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem 3rem;
+    gap: 2.5rem;
+}
+
+.school-child {
+    padding: 3rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.school-grade-help {
+    margin: auto;
+    text-align: center;
+}
+
+.school-name {
+    text-align: center;
+}
+
+.grade-btn-cus {
+    position: relative;
+    bottom: inherit;
+}
+
+.school-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@media (max-width: 1280px) {
+    .school-cards {
+        margin-right: initial;
+        margin-left: initial;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem 5rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .school-cards {
+        margin-right: initial;
+        margin-left: initial;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .school-cards {
+        margin-right: initial;
+        margin-left: initial;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem 1rem;
+    }
+    .school-icon {
+        display: none;
+    }
+}
